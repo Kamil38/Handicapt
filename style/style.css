@@ -1,0 +1,545 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	background: white;
+	color: red;
+}
+
+
+.buttonWrapper {
+  left: 50%;
+  margin-left: 535px;
+}
+
+.button {	
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 16px;  
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  align-items: center;
+  overflow: hidden;
+}
+  
+.button1 {
+  background-color: white; 
+  color: red; 
+  border: 2px solid #f44336;
+}
+  
+.button1:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  
+  border-top: 200px solid #f00;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid black;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #f00;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  
+  border-bottom: 5px solid black;
+}
+
+nav {
+  text-decoration: none;
+  list-style: none;
+}
+
+p, button, input {
+	color: red;
+}
+
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  *{
+    background: white;
+    color: red;
+  }
+  
+  
+  .buttonWrapper {
+    left: 50%;
+    margin-left: 535px;
+  }
+  
+  .button {	
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+    font-size: 16px;  
+    font-weight: bold;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    align-items: center;
+    overflow: hidden;
+  }
+    
+  .button1 {
+    background-color: white; 
+    color: red; 
+    border: 2px solid #f44336;
+  }
+    
+  .button1:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #f00;
+  }
+  
+  .arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+  }
+  
+  nav {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  p, button, input {
+    color: red;
+  }
+}
